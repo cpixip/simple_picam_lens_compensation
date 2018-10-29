@@ -1,5 +1,5 @@
 # Simple picamera lens compensation
-Calculating and using the new lens compensation done by rwb27, with a v1-camera.
+Calculating and using the new lens compensation, implemeted by rwb27, with a v1-camera.
 
 # Setup
 You need to download and install the branch rwb27 created and which is discussed here: https://github.com/waveform80/picamera/pull/470#issuecomment-433642918
@@ -20,3 +20,5 @@ myLensShading.h: the lens shading correction table written out as .h-file.
 myLensShading.JPG: a visulation of the calculated table.
 
 comparision.png: a comparision of the camera, without and with lens shading correction.
+
+(for the curious: the image is part of a film gate for a Super 8 film scanner and was taken with a v1-camera and a Schneider Componon-S 50mm as lens)
