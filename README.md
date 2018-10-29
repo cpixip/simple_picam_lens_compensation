@@ -15,6 +15,8 @@ raw_original.jpg: an example image taken with the lens shading correction of the
 
 with_lensCompensation.jpg: the comparision image taken the newly calculated lens correction table.
 
+myLensShading.h: the lens shading correction table written out as .h-file.
+
 myLensShading.JPG: a visulation of the calculated table.
 
 comparision.png: a comparision of the camera, without and with lens shading correction.
