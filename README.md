@@ -21,4 +21,4 @@ myLensShading.JPG: a visulation of the calculated table.
 
 comparision.png: a comparision of the camera, without and with lens shading correction.
 
-(for the curious: the images used in the example show a part of a film gate for a Super 8 film scanner and was taken with a v1-camera and a Schneider Componon-S 50mm as lens)
+(for the curious: the images used in the example show a part of a film gate for a Super 8 film scanner and were taken with a v1-camera fitted with a Schneider Componon-S 50mm as lens)
