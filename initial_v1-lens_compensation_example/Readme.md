@@ -10,7 +10,7 @@ The script in this folder works with the settings `camera.hflip = True` and `cam
 
 You need to download and install the branch **rwb27** created and which is discussed here: [https://github.com/waveform80/picamera/pull/470#issuecomment-433642918]
 
-Point your Raspi-Cam at sufficiently homogeneous white or gray surface. If you have exchanged the standard lens with a different lens, the image you will get will show most probably color and intensity variations from the center to the edge of the image. The reason is that the standard lens compensation table within the Raspi-software does not match the characteristics of the lens you have attached to the sensor.
+Point your Raspi-Cam at a sufficiently homogeneous white or gray surface. If you have exchanged the standard lens with a different lens, the image you will get will show most probably color and intensity variations from the center to the edge of the image. The reason is that the standard lens compensation table within the Raspi-software does not match the characteristics of the lens you have attached to the sensor.
 
 The script `lensComp_test_A.py`will first take a raw image of the homogenous surface you are pointing the camera at and compute out of this a lens compensation table for your specific lens. This image is stored on disk as `raw_original.jpg` and should show some color and intensity variations.
 
