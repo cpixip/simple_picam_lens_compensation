@@ -126,7 +126,7 @@ def readRaw(data):
 
 # this calculates the lens compensation table    
 # it takes care of the changing table origin with
-# respect to the raw image as well as well the
+# respect to the raw image as well as the
 # different directions the x- and y-coords of the
 # table need to run in order to compensate a
 # raw image with a specific orientation (hflip/vflip)
@@ -146,7 +146,7 @@ def calc_table(img,bayerType,equalize):
     pad_y =  dy-img.shape[1]
     
     # as the origin of the table relative to the raw image shifts,
-    # depending on the hflip and vflip settings, we use the 
+    # depending on the hflip and vflip settings. We use the 
     # recorded bayerType (which reflects these settings) to 
     # pad and shift the image to the correct place 
     # for the rest of the computations
