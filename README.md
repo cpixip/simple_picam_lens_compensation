@@ -20,7 +20,7 @@ For special applications it is necessary to detach the standard lens and put a d
 More important, the light entering a single RGB-pixel is misaligned, and in the outer regions of the sensor light which for example passed through the red filter will fall on neighbouring pixels which are sensitive to green or blue. The effect of this color spill will be noticable as a drop in color saturation towards the outer regions of the image.
 
 #### v2-cameras are impractical for lens hacks
-Experiments have shown that the mismatch created by attaching a lens with a different focal length to a v1- or v2-sensor is remarkably different for v1- and v2-cameras. While the v1-camera barely shows any color desaturation towards the edges, this effect is quite noticable for a v2-camera sensor.
+Experiments have shown that the mismatch created by attaching a lens with a different focal length to a v1- or v2-sensor is remarkably different for two camera versions. While the v1-camera barely shows any color desaturation towards the edges, this effect is quite noticable for a v2-camera sensor.
 
 The problem is: the lens compensation algorithm available in the Raspberry pipeline can **not** compensate for such  color desaturations. We would need a much more complicated algorithm. (Actually, the saturation drops towards zero at some points - so I doubt any algorithm can recover the correct color signals.)
 
